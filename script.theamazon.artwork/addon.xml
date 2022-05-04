@@ -5,7 +5,7 @@
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
-		<summary>Themes for the theamazon Addon</summary>
+		<summary>Themes for the TheAmazon Addon</summary>
 		<description></description>
 		<platform>all</platform>
 	</extension>

@@ -5,8 +5,8 @@
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
-		<summary>Metadata for the theamazon Addon</summary>
-		<description>Metadata for theamazon are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<summary>Metadata for the TheAmazon Addon</summary>
+		<description>Metadata for TheAmazon are maintained separately to make distribution of the the addon itself easier/faster.</description>
 		<platform>all</platform>
 	</extension>
 </addon>
