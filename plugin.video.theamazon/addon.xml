@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.theoath" name="TheOath" provider-name="arabiflix" version="2.2.5">
+<addon id="plugin.video.theamazon" name="TheAmazon" provider-name="arabiflix" version="2.2.5">
 	<requires>
 		<import addon="xbmc.python" version="2.20.0" />
-		<import addon="script.theoath.artwork" />
-		<import addon="script.theoath.metadata" />
+		<import addon="script.theamazon.artwork" />
+		<import addon="script.theamazon.metadata" />
 		<import addon="script.module.resolveurl" />
 		<import addon="script.module.requests" />
 		<import addon="script.module.metahandler" />
@@ -12,13 +12,13 @@
 		<import addon="script.module.openscrapers" optional="true" />
 		<import addon="script.module.orion" optional="true" />
 	</requires>
-	<extension library="theoath.py" point="xbmc.python.pluginsource">
+	<extension library="theamazon.py" point="xbmc.python.pluginsource">
 		<provides>video</provides>
 	</extension>
 	<extension library="service.py" point="xbmc.service" start="startup" />
 	<extension point="xbmc.addon.metadata">
 		<reuselanguageinvoker>false</reuselanguageinvoker>
-		<summary lang="en_GB">TheOath</summary>
+		<summary lang="en_GB">theamazon</summary>
 		<description lang="en_GB">Multi-source and multi-scraper package add-on. A basic scraper pack is provided but also supports Openscrapers, and native Orion integration.[CR][CR]The author does not host any of the content in this add-on and takes no responsibility for content found.</description>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
