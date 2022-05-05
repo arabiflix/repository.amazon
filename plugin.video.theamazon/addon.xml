@@ -18,7 +18,7 @@
 	<extension library="service.py" point="xbmc.service" start="startup" />
 	<extension point="xbmc.addon.metadata">
 		<reuselanguageinvoker>false</reuselanguageinvoker>
-		<summary lang="en_GB">theamazon</summary>
+		<summary lang="en_GB">TheAmazon</summary>
 		<description lang="en_GB">Multi-source and multi-scraper package add-on. A basic scraper pack is provided but also supports Openscrapers, and native Orion integration.[CR][CR]The author does not host any of the content in this add-on and takes no responsibility for content found.</description>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
