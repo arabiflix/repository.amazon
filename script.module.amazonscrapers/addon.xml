@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.module.amazonscrapers" name="AmazonScrapers Module" version="0.7.2" provider-name="TheAmazon">
+<addon id="script.module.amazonscrapers"
+       name="AmazonScrapers Module"
+       version="22.4.28"
+       provider-name="arabiflix">
     <requires>
-        <import addon="xbmc.python" version="2.1.0" />
+        <!--<import addon="xbmc.python" version="2.20.0" />-->
         <import addon="script.module.beautifulsoup4" />
         <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+        <import addon="script.module.simplejson" />
+        <import addon="script.module.orion" optional="true" />
     </requires>
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.python.pluginsource" library="lib/default.py">
@@ -18,7 +25,7 @@
     <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
     <assets>
         <icon>icon.png</icon>
-        <fanart></fanart>
+        <fanart>fanart.jpg</fanart>
     </assets>
     <news></news>
     </extension>
