@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.theamazon.artwork" version="1.0.7" name="TheAmazon Artwork" provider-name="arabiflix">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Themes for the TheAmazon Addon</summary>
-		<description></description>
-		<platform>all</platform>
-	</extension>
+<addon id="script.theamazon.artwork"
+       name="TheAmazon Artwork"
+       version="22.4.28"
+       provider-name="arabiflix">
+    <requires>
+        <!--<import addon="xbmc.python" version="2.19.0"/>-->
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary>TheAmazon Artwork</summary>
+        <description>TheAmazon Artwork</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
 </addon>
