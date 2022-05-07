@@ -2,9 +2,9 @@
 <addon id="repository.amazon" name="arabiflix repo" version="2.5" provider-name="arabiflix">
     <extension point="xbmc.addon.repository" name="arabiflix repo">
     <dir>
-        <info compressed="false">https://github.com/arabiflix/repository.amazon/raw/master/addons.xml</info>
-        <checksum>https://github.com/arabiflix/repository.amazon/raw/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/arabiflix/repository.amazon/master/</datadir>
+        <info compressed="false">https://raw.githubusercontent.com/arabiflix/repository.amazon/master/matrix/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/arabiflix/repository.amazon/master/matrix/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/arabiflix/repository.amazon/master/matrix</datadir>
     </dir>
     <dir>
         <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
