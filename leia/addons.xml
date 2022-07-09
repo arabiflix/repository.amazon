@@ -87,7 +87,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.amazonscrapers" name="AmazonScrapers Module" version="0.7.2" provider-name="TheAmazon">
+<addon id="script.module.amazonscrapers" name="AmazonScrapers Module" version="0.7.4" provider-name="TheAmazon">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.beautifulsoup4" />

@@ -28,7 +28,7 @@
 
 <addon id="plugin.video.theamazon"
        name="TheAmazon"
-       version="22.4.28"
+       version="22.4.30"
        provider-name="arabiflix">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
@@ -68,7 +68,7 @@
 
 <addon id="script.theamazon.artwork"
        name="TheAmazon Artwork"
-       version="22.4.28"
+       version="22.4.30"
        provider-name="arabiflix">
     <requires>
         <!--<import addon="xbmc.python" version="2.19.0"/>-->
@@ -100,7 +100,7 @@
 
 <addon id="script.module.amazonscrapers"
        name="AmazonScrapers Module"
-       version="22.4.28"
+       version="22.4.30"
        provider-name="arabiflix">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
