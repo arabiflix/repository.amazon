@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="script.module.amazonscrapers"
        name="AmazonScrapers Module"
-       version="22.4.30"
+       version="22.4.31"
        provider-name="arabiflix">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
